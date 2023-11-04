@@ -11,7 +11,7 @@ const Navbar = ({handleChange,handleSubmit}) => {
       <div className={styles.links}>
         <Link
         to="/"
-        ><h1>MaxMass</h1>
+        ><h1>M</h1>
         </Link>
         <SearchBar handleChange={handleChange} handleSubmit={handleSubmit}  />
         <Link
