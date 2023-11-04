@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
 import styles from './Navbar.module.css';
-import logo from './logoMaxmass.png'
+
 
 const Navbar = ({handleChange,handleSubmit}) => {
   return (
@@ -11,7 +11,7 @@ const Navbar = ({handleChange,handleSubmit}) => {
       <div className={styles.links}>
         <Link
         to="/"
-        ><img  className={styles.logo} src={logo} alt='Logo Max Mas'/>
+        ><h1>MaxMass</h1>
         </Link>
         <SearchBar handleChange={handleChange} handleSubmit={handleSubmit}  />
         <Link
