@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
 import styles from './Navbar.module.css';
-import logo from '../../assets/logoMaxmass.png'
+import logo from './logoMaxmass.png'
 
 const Navbar = ({handleChange,handleSubmit}) => {
   return (
